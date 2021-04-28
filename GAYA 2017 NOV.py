@@ -28,9 +28,8 @@ print(M)
 plt.pie(M, labels = X, colors=['r','y','g','b','m','dimgrey'],  
         startangle=90, shadow = True, explode = (0, 0, 0, 0,0,0),
         radius = 1.2, autopct = '%1.1f%%') 
-plt.legend()
 plt.show()
-print('                          GAYA 2017 NOV,POLLUTANT CONTRIBUTION')
+print('                   GAYA 2017 NOV,POLLUTANT CONTRIBUTION')
 
     
  

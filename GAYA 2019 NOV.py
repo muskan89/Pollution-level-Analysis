@@ -19,14 +19,13 @@ M=m[:]
 for i in range(len(m)-1):
     if i%2==0:
         M.remove(m[i])
- 
+print(M)    
 X=['CO','SO2','NO2',"O3","PM2.5"]
 
 
 plt.pie(M, labels = X, colors=['r','y','g','b','m'],  
         startangle=90, shadow = True, explode = (0, 0, 0, 0,0), 
         radius = 1.2, autopct = '%1.1f%%') 
-plt.legend()
 plt.show()
 print('                   GAYA 2019 NOV,POLLUTANT CONTRIBUTION')
 

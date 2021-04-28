@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 fig= plt.figure(figsize=(30,15))
 
 
-f=open('BAR PLOT.txt')
+f=open('Pollution_in_cities_of_world.txt')
 text=''
 lower,upper=['*'],[]
 for i in range(97,123):
@@ -26,7 +26,7 @@ for i in range(5):
     
 
 
-f=open('project3.txt') 
+f=open('Pollution_in_cities_of_world.txt')
 m=''  
 num=[' ','0','1','2','3','4','5','6','7','8','9']  
 for p in f:
